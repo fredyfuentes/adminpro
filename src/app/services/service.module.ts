@@ -11,7 +11,8 @@ import {
   HospitalService,
   MedicoService,
   LoginGuard,
-  AdminGuard } from './service.index';
+  AdminGuard,
+  VerificaTokenGuard } from './service.index';
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ModalUploadService } from '../components/modal-upload/modal-upload.serv
     SubirArchivoService,
     LoginGuard,
     AdminGuard,
+    VerificaTokenGuard,
     ModalUploadService,
     HospitalService,
     MedicoService
